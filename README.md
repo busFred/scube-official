@@ -1,8 +1,12 @@
 # SCube
-https://github.com/user-attachments/assets/af818c88-51e9-4b1a-9e93-b57b75dd29b5
+
+<div align="center">
+  <img src="assets/demo.gif" alt=""  width="1100" />
+</div>
 
 **SCube: Instant Large-Scale Scene Reconstruction using VoxSplats**<br>
-[Xuanchi Ren](https://xuanchiren.com/)$^* $, [Yifan Lu](https://yifanlu0227.github.io/)$^* $, [Hanxue Liang](https://scholar.google.com/citations?user=XcxDA14AAAAJ&hl=en), [Zhangjie Wu](https://zhangjiewu.github.io/), [Huan Ling](http://www.cs.toronto.edu/~linghuan/), [Mike Chen](https://www.linkedin.com/in/nvidia-mikechen/), [Sanja Fidler](https://www.cs.utoronto.ca/~fidler/), [Francis Williams](https://www.fwilliams.info/), [Jiahui Huang](https://huangjh-pub.github.io/) (* equal contribution) <br>
+[Xuanchi Ren](https://xuanchiren.com/)$^* $, [Yifan Lu](https://yifanlu0227.github.io/)$^* $, [Hanxue Liang](https://scholar.google.com/citations?user=XcxDA14AAAAJ&hl=en), [Zhangjie Wu](https://zhangjiewu.github.io/), [Huan Ling](http://www.cs.toronto.edu/~linghuan/), [Mike Chen](https://www.linkedin.com/in/nvidia-mikechen/), [Sanja Fidler](https://www.cs.utoronto.ca/~fidler/), [Francis Williams](https://www.fwilliams.info/), [Jiahui Huang](https://huangjh-pub.github.io/) <br>
+\* indicates equal contribution <br>
 **[[Project Page]](https://research.nvidia.com/labs/toronto-ai/scube/)**
 
 
