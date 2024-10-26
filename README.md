@@ -20,6 +20,10 @@
 - Ren et al. 2024. [XCube: Large-Scale 3D Generative Modeling using Sparse Voxel Hierarchies](https://research.nvidia.com/labs/toronto-ai/xcube).
 - Williams et al. 2024. [𝑓VDB: A Deep-Learning Framework for Sparse, Large-Scale, and High-Performance Spatial Intelligence](https://arxiv.org/abs/2407.01781).
 
+## Acknowledgement
+
+This repo is mainly based on https://github.com/nv-tlabs/XCube.
+
 ## Citation
 ```
 @inproceedings{
