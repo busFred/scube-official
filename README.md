@@ -22,7 +22,7 @@
 
 ## Acknowledgement
 
-This repo is mainly based on https://github.com/nv-tlabs/XCube.
+This repo is based on https://github.com/nv-tlabs/XCube.
 
 ## Citation
 ```
