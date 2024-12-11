@@ -11,7 +11,7 @@
 
 ## News
 - 2024-12-11: Also check out our latest research [InfiniCube](https://research.nvidia.com/labs/toronto-ai/infinicube/).
-- 2024-12-11: Code released! We have also integrated XCube into this repository for easier use. For detailed instructions, please refer to the [XCube Instruction](XCUBE.md).
+- 2024-12-11: Code released! We have also integrated [XCube](https://research.nvidia.com/labs/toronto-ai/xcube/) into this repository for easier use. For detailed instructions, please refer to the [XCube Instruction](XCUBE.md).
 
 ## Installation
 ```bash
@@ -239,7 +239,7 @@ Copyright &copy; 2024, NVIDIA Corporation & affiliates. All rights reserved.
 This work is made available under the [Nvidia Source Code License](LICENSE.txt).
 
 ## Related Works
-- Lu et al. 2024. [InfiniCube: Unbounded and Controllable Dynamic 3D Driving Scene Generation with World-Guided Video Models](https://research.nvidia.com/labs/toronto-ai/infinicube/)
+- Lu et al. 2024. [InfiniCube: Unbounded and Controllable Dynamic 3D Driving Scene Generation with World-Guided Video Models](https://research.nvidia.com/labs/toronto-ai/infinicube/).
 - Ren et al. 2024. [XCube: Large-Scale 3D Generative Modeling using Sparse Voxel Hierarchies](https://research.nvidia.com/labs/toronto-ai/xcube).
 - Williams et al. 2024. [𝑓VDB: A Deep-Learning Framework for Sparse, Large-Scale, and High-Performance Spatial Intelligence](https://arxiv.org/abs/2407.01781).
 
