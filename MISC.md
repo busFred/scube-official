@@ -1,4 +1,4 @@
-# Misc Details
+# Misc Details for XCube
 
 ## Data preparation
 XCube takes vdb grids as input. We provide recipes here to process data.
@@ -10,8 +10,6 @@ python datagen/shapenet_example.py --num_vox 128
 python datagen/shapenet_example.py --num_vox 512
 ```
 <!-- (BETA) grid_from_mesh -->
-
-<img src="assets/shapenet_data.png"  width="100%">
 
 ### From Points
 ```
