@@ -8,6 +8,7 @@ authors = ["NVIDIA"]
 [tool.poetry.scripts]
 vis-pair = "inference.visualize_grid_compare:main"
 vis-gs = "inference.visualize_3dgs_pkl:main"
+vis-gt-pc = "inference.visualize_gt_pc:main"
 
 
 [build-system]

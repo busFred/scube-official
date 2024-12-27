@@ -127,6 +127,12 @@ SCube-release
 ### GT Voxel Downloading
 We provide the webdataset-format files of ground-truth voxels in [Google Drive](https://drive.google.com/file/d/1o5hC1SVxrItMEWwKEy4FYgVJGXpE72D4/view?usp=drive_link) (need request). After getting approval, download and uncompress it in `SCube-release/waymo_webdataset` along with other attributes.
 
+To visualize the ground-truth voxel data, which is stored in point cloud format, you can run the following command:
+
+```bash
+python inference/visualize_gt_pc.py -p <GT_VOXEL_TAR_FILE>
+```
+
 ## Model Training
 ### VAE Training
 ```bash
@@ -227,10 +233,11 @@ You could install this project to create short cut for visualization.
 ```bash
 poetry install 
 ```
-Then you will have command `vis-pair` equivalent to `python inference/visualize_grid_compare.py` and `vis-gs` equivalent to `python inference/visualize_3dgs_pkl.py`. You can run visualization as
+Then you will have command `vis-pair` equivalent to `python inference/visualize_grid_compare.py`, `vis-gs` equivalent to `python inference/visualize_3dgs_pkl.py` and `vis-gt-pc` equivalent to `inference/visualize_gt_pc.py`. You can run visualization as
 ```bash
 vis-pair -p <PT_FILES_FOLDER>
 vis-gs -p <3DGS_PKL_FILE>
+vis-gt-pc -p <GT_VOXEL_TAR_FILE>
 ```
 
 ## License
