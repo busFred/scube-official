@@ -28,11 +28,11 @@ from tqdm import tqdm
 from datagen.scube_data_utils import object_info_to_cuboid, object_info_to_object2world, get_points_in_cuboid, object_info_to_canonical_cuboid, \
     encode_dict_to_npz_bytes, imageencoder_imageio_png16, project_points_to_depth_image, align_depth_to_depth_batch, inference_metric3dv2, inference_mmseg
 
-SAVE_RGB_WDS = False
-SAVE_SEGMENTATION_WDS = False
-SAVE_POSE_WDS = False
-SAVE_DYNAMIC_OBJECT_BBOX_WDS = False
-SAVE_ALL_OBJECT_BBOX_WDS = False 
+SAVE_RGB_WDS = True
+SAVE_SEGMENTATION_WDS = True
+SAVE_POSE_WDS = True
+SAVE_DYNAMIC_OBJECT_BBOX_WDS = True
+SAVE_ALL_OBJECT_BBOX_WDS = True 
 SAVE_DEPTH_WDS = True
 
 RECTIFY_DEPTH_AFFINE = True
