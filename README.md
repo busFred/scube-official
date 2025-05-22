@@ -125,7 +125,7 @@ SCube-release
 ```
 
 ### GT Voxel Downloading
-We provide the webdataset-format files of ground-truth voxels in [Google Drive](https://drive.google.com/file/d/1o5hC1SVxrItMEWwKEy4FYgVJGXpE72D4/view?usp=drive_link) (need request). After getting approval, download and uncompress it in `SCube-release/waymo_webdataset` along with other attributes.
+We provide the webdataset-format files of ground-truth voxels on [Hugging Face](https://huggingface.co/datasets/xrenaa/SCube-Data/tree/main/pc_voxelsize_01). Download and uncompress it in `SCube-release/waymo_webdataset` along with other attributes.
 
 To visualize the ground-truth voxel data, which is stored in point cloud format, you can run the following command:
 
