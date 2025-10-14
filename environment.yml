@@ -48,7 +48,6 @@ dependencies:
   - ffmpeg
   - linkify-it-py
   - pip:
-    - -f https://pycg.huangjh.tech/packages/index.html
     - python-pycg
     - point_cloud_utils==0.29.5 # ! required version
     - loguru
@@ -71,9 +70,8 @@ dependencies:
     - ftfy
     - termcolor
     - gdown
-    - open3d_pycg_cpu
     - https://github.com/nerfstudio-project/gsplat/releases/download/v1.4.0/gsplat-1.4.0%2Bpt22cu121-cp310-cp310-linux_x86_64.whl
-    - https://fvdb.huangjh.tech/fvdb-0.2.0+pt22cu121-cp310-cp310-linux_x86_64.whl
+    - https://research.nvidia.com/labs/toronto-ai/infinicube/wheels/fvdb-0.2.0+pt22cu121-cp310-cp310-linux_x86_64.whl
     - waymo-open-dataset-tf-2-11-0==1.6.1
     - opencv_python_headless
     - openmim
