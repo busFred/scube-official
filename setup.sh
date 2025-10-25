@@ -24,4 +24,6 @@ FORCE_CUDA=1 pip install torch-scatter torch-sparse torch-cluster torch-spline-c
     -f https://data.pyg.org/whl/torch-2.2.0+cu121.html
 # Install remaining pip packages
 pip install -r requirements.txt
+mim install "mmcv>=2.0.0"
+pip install "mmsegmentation>=1.0.0"
 echo "Installation complete!"
