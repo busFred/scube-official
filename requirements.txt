@@ -20,6 +20,7 @@ opencv-python-headless
 trimesh
 polyscope
 point-cloud-utils==0.29.5
+open3d
 
 # Development and documentation
 ipython
