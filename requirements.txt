@@ -1,0 +1,64 @@
+# Core scientific computing (pandas not installed via conda)
+pandas
+matplotlib
+tqdm
+
+# PyTorch ecosystem extensions
+pytorch-lightning==1.9.4
+einops
+timm
+
+# Deep learning utilities
+tensorboard
+transformers
+omegaconf
+flatten-dict
+wandb
+
+# Computer vision and 3D
+opencv-python-headless
+trimesh
+polyscope
+point-cloud-utils==0.29.5
+
+# Development and documentation
+ipython
+setuptools
+ninja
+pytest-benchmark
+sphinx>=7.0.0
+sphinx-rtd-theme
+myst-parser
+linkify-it-py
+
+# Utilities
+gitpython
+certifi
+parameterized
+rich
+loguru
+randomname
+pynvml
+icecream
+boto3
+gdown
+viser
+mediapy
+scikit-spatial
+ffmpeg-python
+ftfy
+termcolor
+poetry
+openmim
+
+# Custom packages from git repositories
+git+https://github.com/yifanlu0227/webdataset.git
+git+https://github.com/yifanlu0227/PerceptualSimilarity.git
+git+https://github.com/rahul-goel/fused-ssim.git
+
+# Custom wheels (CUDA-specific)
+https://github.com/nerfstudio-project/gsplat/releases/download/v1.4.0/gsplat-1.4.0%2Bpt22cu121-cp310-cp310-linux_x86_64.whl
+https://research.nvidia.com/labs/toronto-ai/infinicube/wheels/fvdb-0.2.0+pt22cu121-cp310-cp310-linux_x86_64.whl
+
+# Waymo dataset (brings TensorFlow 2.11 dependency)
+waymo-open-dataset-tf-2-11-0==1.6.1
